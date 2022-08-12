@@ -504,12 +504,25 @@ a.tosu {
 .profile-pic-gallary {
   padding: 0px;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%; }
+  grid-template-columns: 20% 20% 20% 20% 20%; 
+  justify-items: center;
+}
+  
+@media (max-width: 768px) {
+    .profile-pic-gallary {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 100%;
+        justify-items: center;
+    }
+}
 
 .image--cover-container {
-  float: left;
-  text-align: center;
-  margin: 0px 15px; }
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0px 15px;
+}
 
 .image--cover {
   width: 80px;
