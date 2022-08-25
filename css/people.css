@@ -1,0 +1,61 @@
+.people .avatar {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: center right;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.people .text-center {
+    text-align: center !important;
+}
+
+.people .list-inline-item {
+    display: inline-block;
+}
+
+.people a {
+    color: #0077cc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.people a:hover {
+    color: #3f51b5;
+    text-decoration: underline;
+}
+
+.people h1, .people h2, .people h3, .people h4, .people h5, .people h6, .people .h1, .people .h2, .people .h3, .people .h4, .people .h5, .people .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.people h3, .people .h3 {
+    font-size: 1.75rem;
+}
+
+.people h6, .people .h6 {
+    font-size: 1rem;
+}
+
+.people ol, .people ul, .people dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.people .list-inline, .people .list-unstyled {
+    margin: 7px auto 15px auto;
+}
+
+.people .list-inline-item:not(:last-child) {
+    margin: 5px;
+}
+
+.people .fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    font-size: 20px;
+}
