@@ -1007,3 +1007,30 @@ ul#archive li span a:hover {
 .color-code-comment{
   color: #00cc99;
 }
+
+.publication {
+	margin: 15px 0 15px 0;
+}
+
+.paper-title {
+	float: left;
+}
+
+.paper-icon {
+	float: right;
+	
+}
+
+.jornal-name {
+	overflow: auto;
+}
+
+.h2-header{
+	margin-top: 50px;
+	
+	letter-spacing: -1px;
+	line-height: 1;
+	font-family: 'Titillium Web', sans-serif;
+	color: #500516; 
+	
+}
