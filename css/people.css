@@ -47,7 +47,6 @@
 }
 
 .people .list-inline, .people .list-unstyled {
-	aria-hidden="true";
     margin: 7px auto 15px auto;
 }
 
