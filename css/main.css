@@ -1034,3 +1034,37 @@ ul#archive li span a:hover {
 	color: #500516; 
 	
 }
+
+
+div.bibyear {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+div.bibdoi {
+    display: inline;
+}
+
+div.bibtitle {
+    font-weight: bold;
+}
+
+div.bibauthor {
+    display: inline-block;
+}
+
+div.bibauthors {
+    font-style: italic;
+}
+
+div.bibauthors a:link, div.bibauthors a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+div.bibauthors a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
